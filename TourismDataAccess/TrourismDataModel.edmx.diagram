@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1b2c4c912b0c408691e5ba20fc5b0028" Name="Diagram1">
+        <EntityTypeShape EntityType="dbTourismEventAppModel.Category" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbTourismEventAppModel.Cinema" Width="1.5" PointX="3" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbTourismEventAppModel.Event" Width="1.5" PointX="6" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbTourismEventAppModel.Hotel" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbTourismEventAppModel.Location" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbTourismEventAppModel.Museum" Width="1.5" PointX="3" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbTourismEventAppModel.Restaurant" Width="1.5" PointX="6" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="dbTourismEventAppModel.FK_Cinema_Category_CategoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="dbTourismEventAppModel.FK_Event_Category_CategoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="dbTourismEventAppModel.FK_Hotel_Category_CategoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="dbTourismEventAppModel.FK_Museum_Category_CategoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="dbTourismEventAppModel.FK_Restaurant_Category_CategoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="dbTourismEventAppModel.FK_Cinema_Location_LocationID" ManuallyRouted="false" />
+        <AssociationConnector Association="dbTourismEventAppModel.FK_Event_Location_LocationID" ManuallyRouted="false" />
+        <AssociationConnector Association="dbTourismEventAppModel.FK_Hotel_Location_LocationID" ManuallyRouted="false" />
+        <AssociationConnector Association="dbTourismEventAppModel.FK_Museum_Location_LocationID" ManuallyRouted="false" />
+        <AssociationConnector Association="dbTourismEventAppModel.FK_Restaurant_Location_LocationID" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
